@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Lentil Salad",
+        "time" : 60,
+        "rating" : 4.8,
+        "author" : "Allspice Staff",
+        "experience" : "Beginner",
+        "diet" : "",
+        "meal" : "Lunch",
+        "link" : "/Recipes/Lentil-Salad",
+        "image" : "https://assets.bonappetit.com/photos/5d66a3a4dbe5930008aaadf9/2:1/w_5000,h_2500,c_limit/Basically-Lentil-Salad-01.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Broccoli Pesto Pasta",
+        "time" : 30,
+        "rating" : 5,
+        "experience" : "Beginner",
+        "diet" : "",
+        "meal" : "Lunch",
+        "author" : "Allspice Staff",
+        "link" : "/Recipes/Broccoli-Pesto-Pasta",
+        "image" : "https://static.onecms.io/wp-content/uploads/sites/23/2020/02/12/broccoli-pesto-pasta-0220bfy-2000.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Chicken Cutlet Sandwich",
+        "time": 45,
+        "rating": 4.5,
+        "experience" : "Intermediate",
+        "diet" : "",
+        "meal" : "Lunch",
+        "author" : "Allspice Staff",
+        "link" : "/Recipes/Chicken-Cutlet-Sandwich",
+        "image": "https://assets.bonappetit.com/photos/57ace357f1c801a1038bc893/master/pass/chicken-cutlet-sandwiches-with-savoy-cabbage-slaw.jpg"
+    }
+]

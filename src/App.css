@@ -1,0 +1,427 @@
+html,
+body {
+  font-family: "Optima";
+  margin: 0;
+}
+
+
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+}
+
+.sidebar h1 {
+  position: fixed;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+  color: #ffffff;
+  background: #042366;
+  display: inline-block;
+  height: 120px;
+  width: 100vw;
+  font-size: 6em;
+}
+
+.sidebar h1 a{
+  color: #ffffff;
+}
+
+.sidebar h1 a:link { text-decoration: none; }
+
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #042366;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #04236678;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 39px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+  margin-top: 10px;
+}
+
+.bm-burger-bars {
+  background: #ffffff;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #042366;
+}
+
+.bm-menu {
+  background: #ffffff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #042366;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+ .wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 20rem));
+  gap: 2rem;
+  justify-content: center;
+ }
+
+.button1{
+  width: 70px;
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding-top: 14%;
+  margin-left: 39%;
+  margin-right: 50%;
+  margin-bottom: 5%;
+}
+
+.button1 Button{
+width: 300px;
+background-color:white;
+color: #042366;
+text-align: center;
+display: inline-block;
+font-size: 25px;
+font-family: "Optima";
+border-color: #042366;
+margin-top: 150%;
+
+}
+
+.button1 Button:hover{
+  width: 300px;
+  background-color: #042366;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Optima";
+  border-color: #042366;
+  margin-top: 150%;
+  transition-delay:10ms;
+
+  }
+
+ .card{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+ }
+
+ .card img{
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+ }
+
+ .card h2{
+  text-align: center;
+ }
+ .card h3{
+  text-align: center;
+ }
+ .card a{
+  color: #042366;
+ }
+ .card a:hover{
+  color: #04236678;
+ }
+
+ .heading{
+  text-align: center;
+ }
+
+ .Search{
+  margin-bottom: 30%;
+ }
+ .Search h2{
+  padding-top: 15%;
+  margin-top: 0%;
+  text-align: center;
+  text-align: center;
+  font-size: 70px;
+ }
+
+ .Search1{
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .Search1 input{
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Optima";
+ }
+ .Search1 p1{
+  margin:5%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+
+.column {
+  text-align: center;
+  float: left;
+  width: 33.3%;
+  margin-top: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+  padding: 10%;
+}
+
+.column h1{
+  color: #042366;
+}
+.column p3{
+  margin-top: 10%;
+  font-size:25px;
+  text-align: left;
+  color: #042366;
+}
+
+.lunch{
+  padding-top: 15%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 40px;
+}
+
+.alllunch p1 Button{
+  margin-top: 15%;
+  margin-left: 2%;
+  position: fixed;
+  font-family: "Optima";
+  background-color:#ffffff;
+  color: #042366;
+  border-color: #042366;
+  font-size: 20px;
+}
+.alllunch p1 Button:hover{
+  color: #ffffff;
+  background-color: #042366;
+}
+
+.lunch image{
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 40px;
+}
+
+.lunch p3{
+  font-size: 20px;
+}
+
+
+.alllunch p1 a{
+  position: fixed;
+  padding-top: 15%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.alllunch select{
+  position: fixed;
+  margin-top: 15%;
+  margin-left: 75%;
+  font-size: 20px;
+  color: #042366;
+  font-family: "Optima";
+  background-color: #ffffff;
+  outline-color: #042366;
+}
+
+.individualrecipe h1{
+  margin-top: 0%;
+  padding-top: 20%;
+  text-align: center;
+  font-size: 60px;
+}
+
+.column1{
+  float: left;
+  width: 40%;
+  text-align: center;
+  margin-left: 5%;
+}
+.column2{
+  float: left;
+  width: 7%;
+  text-align: center;
+  font-size: 20px;
+}
+.column3{
+  float: left;
+  width: 13%;
+  text-align: center;
+  font-size: 20px;
+}
+.column4{
+  float: left;
+  width: 13%;
+  text-align: center;
+  font-size: 20px;
+}
+.column5{
+  float: left;
+  width: 17%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.column6{
+  margin-top: 3%;
+  float: left;
+  width: 50%;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-size: 20px;
+  width: auto;
+}
+
+.individualrecipe h3{
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.ingredients{
+  float: left;
+  width: 36%;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 5%;
+  line-height: 1.2;
+}
+.steps{
+  margin-top: 2%;
+  float: left;
+  width: 40%;
+  text-align: left;
+  line-height: 1.6;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-size: 20px;
+  width: auto;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.individualrecipe{
+  margin-bottom: 10%;
+}
+
+.individualrecipe p1 Button{
+  margin-top: 15%;
+  margin-left: 2%;
+  position: fixed;
+  font-family: "Optima";
+  background-color:#ffffff;
+  color: #042366;
+  border-color: #042366;
+  font-size: 20px;
+}
+.individualrecipe p1 Button:hover{
+  color: #ffffff;
+  background-color: #042366;
+}
+.individualrecipe h2{
+font-size: 40px;
+text-align: center;
+}
+
+.makereview{
+  padding-top: 10%;
+}
+
+.star-rating{
+  text-align: center;
+}
+.star-rating button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+.on {
+  color: #042366;
+}
+.off {
+  color: #ccc;
+}
+
+.ingredients label textarea{
+  margin-top: 10%;
+  width: 90%;
+  height: 100px;
+  font-family: "Optima";
+}
